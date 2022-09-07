@@ -2,18 +2,21 @@
 import java.util.*;
 
 /**
- * Fibonacci Series using Recursion
+ * Fibonacci Series using Recursion.
  * This program prompts the user to enter an index and computes
  * the Fibonacci number for that index using recursion.
- *</p>
  *
  *@author joncampbell
  */
 public class Main {
 
     /**
-     * Main method calls the Fibonacci method and passes nth argument
-     * @param args integer as
+     * Compute fibonacci from user input
+     * <p>
+     *     Main method prompts user to enter n-th, and calls the Fibonacci method for the nth argument
+     * </p>
+     *
+     * @param args the integer to be calculated
      */
 
     public static void main(String[] args) {
@@ -30,7 +33,7 @@ public class Main {
 
     /**
      * The method for finding the Fibonacci number
-     * @param n is the index number
+     * @param n the integer to be calculated
      * @return Method returns computed Fibonacci for n-th index
      */
     public static long fibonacci(long n) {
