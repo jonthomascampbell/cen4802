@@ -16,7 +16,7 @@ public class Main {
      *     Main method prompts user to enter n-th, and calls the Fibonacci method for the nth argument
      * </p>
      *
-     * @param args the integer to be calculated
+     * @param args integer to be passed into the fibonacci method
      */
 
     public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Main {
     /**
      * The method for finding the Fibonacci number
      * @param n the integer to be calculated
-     * @return Method returns computed Fibonacci for n-th index
+     * @return Integer for the computed Fibonacci index
      */
     public static long fibonacci(long n) {
         if (n == 0) return 0;
